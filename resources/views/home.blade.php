@@ -3,7 +3,18 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">Menu</div>
+                <div class="list-group">
+                    <div class="list-group-item"><a href="#" class="active">Painel</a></div>
+                    <div class="list-group-item"><a href="/campanha">Campanhha</a></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-8">
             <div class="panel panel-default">
                 <div class="panel-heading">Dashboard</div>
 
@@ -16,6 +27,7 @@
 
                 </div>
             </div>
+
         </div>
     </div>
 </div>
