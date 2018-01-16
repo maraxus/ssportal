@@ -22,6 +22,9 @@ $(function() {
               if( log ) alert(log);
           }
 
+          var form = $(this).parents('#input-form').submit();
+          console.log("")
+
       });
   });
   
