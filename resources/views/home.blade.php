@@ -8,7 +8,7 @@
                 <div class="panel-heading">Menu</div>
                 <div class="list-group">
                     <div class="list-group-item"><a href="#" class="active">Painel</a></div>
-                    <div class="list-group-item"><a href="/campanha">Campanhha</a></div>
+                    <div class="list-group-item"><a href="{{route('campaign')}}">Campanhha</a></div>
                 </div>
             </div>
 

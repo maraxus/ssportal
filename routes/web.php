@@ -18,4 +18,4 @@
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
-Route::view('/campanha', '/campanha/campanha');
+Route::get('/campaign', 'HomeController@campanha')->name("campaign");

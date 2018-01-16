@@ -17,7 +17,7 @@
                     <small>Selecione o arquivo csv que contém os números a serem importados para a campanha.</small>
                 </div>
                 <div class="panel-body">
-                    @include('campanha.partials.import')
+                    @include('campaign.partials.import')
                 </div>
             </div>
         </div>

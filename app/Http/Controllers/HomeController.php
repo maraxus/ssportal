@@ -25,4 +25,16 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    /**
+     * Show the application Campanha add form.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function campanha()
+    {
+        $scripts = array('js/campaign-importform.js');
+        return view('/campaign/campaign', compact('scripts'));
+    }
+
 }

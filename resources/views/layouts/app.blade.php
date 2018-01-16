@@ -76,5 +76,6 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    @include('js-imports')
 </body>
 </html>
