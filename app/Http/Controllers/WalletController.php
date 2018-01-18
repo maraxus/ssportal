@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Response;
 
 class WalletController extends Controller
 {
@@ -43,10 +44,18 @@ class WalletController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store()
     {
-        //
-        return dd(request()->all());
+        $result = "houve um erro com o seu arquivo. tente novamente.";
+        // if (request()->file('file')->isValid()) {
+        //     //
+        //     $result = "arquivo pronto!";
+        // }
+        if (request()->file('file')->isValid()) {
+            //create the fileuploader
+            //proccessAll() to store
+        }
+        return Response::json(array('result' => $result));
     }
 
     /**

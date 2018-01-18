@@ -10,11 +10,49 @@ $(function() {
 
   // We can watch for our custom `fileselect` event like this
   $(document).ready( function() {
+    
+      $(document).on('submit','#import-form', function (event) {
+          //event.preventDefault();
+          var formData = new FormData();
+            formData.append('file', $('input[type=file]')[0].files[0]);
+            formData.append('text', $('input[type=text]')[0].value);
+
+          var url = $(this).attr('action');
+
+          data = formData;
+
+          $.ajax({
+            headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            url: url,
+            data: formData,
+            processData: false,
+            type: 'POST',
+            // This will override the content type header, 
+            // regardless of whether content is actually sent.
+            // Defaults to 'application/x-www-form-urlencoded'
+            contentType: 'multipart/form-data', 
+
+            //Before 1.5.1 you had to do this:
+            beforeSend: function (x) {
+                if (x && x.overrideMimeType) {
+                    x.overrideMimeType("multipart/form-data");
+                }
+            },
+            // Now you should be able to do this:
+            mimeType: 'multipart/form-data',    //Property added in 1.5.1
+
+            success: function(data){
+              $('.form-group').html("<h4 class='success'>Seu arquivo está pronto</h4>");
+            }
+          });
+      });
+
       $(':file').on('fileselect', function(event, numFiles, label) {
-      	console.log("Handled!")
 
           var input = $(this).parents('.input-group').find(':text'),
-              log = numFiles > 1 ? numFiles + ' files selected' : label;
+          log = numFiles > 1 ? numFiles + ' files selected' : label;
 
           if( input.length ) {
               input.val(log);
@@ -22,8 +60,9 @@ $(function() {
               if( log ) alert(log);
           }
 
-          var form = $(this).parents('#input-form').submit();
-          console.log("")
+          $('#form-group').html("<h4 class='success'>Seu arquivo está pronto</h4>");
+
+          var form = $(this).parents('#import-form').trigger('submit');
 
       });
   });
