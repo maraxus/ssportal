@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests\WalletRequest;
+use FileUpload\PathResolver\PathResolver;
+use FileUpload\Validator\Validator;
 use Response;
 
 class WalletController extends Controller
@@ -44,16 +47,18 @@ class WalletController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store()
+    public function store(WalletRequest $request)
     {
         $result = "houve um erro com o seu arquivo. tente novamente.";
         // if (request()->file('file')->isValid()) {
         //     //
         //     $result = "arquivo pronto!";
         // }
-        if (request()->file('file')->isValid()) {
+        if ($request->file('file')->isValid()) {
             //create the fileuploader
             //proccessAll() to store
+            $result = $request->storeFile('file');
+            // $result = $request->file->path();
         }
         return Response::json(array('result' => $result));
     }

@@ -17,10 +17,12 @@ class AppServiceProvider extends ServiceProvider
     {
         //to fix mysql bug. reffer to https://laravel-news.com/laravel-5-4-key-too-long-error
         Schema::defaultStringLength(191);
-
-        //share a scripts array for page specific jvascript. 
-        //Every action using custom js should override with the relevant scripts array.
-        View::share('scripts',array());
+        $this->app->bind('\FileUpload\FileNameGenerator\FileNameGenerator','\FileUpload\FileNameGenerator\Simple');
+        $this->app->bind('\FileUpload\PathResolver\PathResolver',
+            function ($app) {
+                return $app->makeWith('\FileUpload\PathResolver\Simple',['main_path' => 'storage/public']);
+            }
+        );
     }
 
     /**
