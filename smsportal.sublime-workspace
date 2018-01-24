@@ -4,12 +4,32 @@
 		"selected_items":
 		[
 			[
-				"File",
-				"FileUpload"
+				"col",
+				"col-md-offset-1"
+			],
+			[
+				"component",
+				"components"
+			],
+			[
+				"filena",
+				"filename"
+			],
+			[
+				"file",
+				"fileUpload"
+			],
+			[
+				"fileupload",
+				"fileUpload"
 			],
 			[
 				"Wa",
-				"WalletRequest"
+				"Wallet"
+			],
+			[
+				"File",
+				"FileUpload"
 			],
 			[
 				"S",
@@ -40,53 +60,10 @@
 	"buffers":
 	[
 		{
-			"file": "routes/web.php",
-			"settings":
-			{
-				"buffer_size": 1845,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/Http/Controllers/WalletController.php",
 			"settings":
 			{
-				"buffer_size": 2293,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Providers/RouteServiceProvider.php",
-			"settings":
-			{
-				"buffer_size": 1529,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Requests/WalletRequest.php",
-			"settings":
-			{
-				"buffer_size": 702,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "vendor/gargron/fileupload/src/FileUpload/FileUpload.php",
-			"settings":
-			{
-				"buffer_size": 17205,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/campaign/partials/import.blade.php",
-			"settings":
-			{
-				"buffer_size": 572,
+				"buffer_size": 1927,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -95,34 +72,123 @@
 			"file": "resources/assets/js/campaign-importform.js",
 			"settings":
 			{
-				"buffer_size": 2332,
+				"buffer_size": 2336,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/Providers/AppServiceProvider.php",
+			"file": "app/Wallet.php",
 			"settings":
 			{
-				"buffer_size": 605,
+				"buffer_size": 308,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/Providers/ViewServiceProvider.php",
+			"file": "resources/views/campaign/partials/message.blade.php",
 			"settings":
 			{
-				"buffer_size": 620,
+				"buffer_size": 306,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "config/app.php",
+			"file": "app/Http/Controllers/HomeController.php",
 			"settings":
 			{
-				"buffer_size": 9220,
+				"buffer_size": 726,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/TemplateController.php",
+			"settings":
+			{
+				"buffer_size": 588,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Template.php",
+			"settings":
+			{
+				"buffer_size": 499,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Requests/TemplateRequest.php",
+			"settings":
+			{
+				"buffer_size": 532,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/web.php",
+			"settings":
+			{
+				"buffer_size": 1969,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Requests/CampaignRequest.php",
+			"settings":
+			{
+				"buffer_size": 488,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/CampaignController.php",
+			"settings":
+			{
+				"buffer_size": 699,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/auth/login.blade.php",
+			"settings":
+			{
+				"buffer_size": 3047,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/home.blade.php",
+			"settings":
+			{
+				"buffer_size": 1002,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/campaign/partials/campaign-data.blade.php",
+			"settings":
+			{
+				"buffer_size": 641,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/campaign/campaign.blade.php",
+			"settings":
+			{
+				"buffer_size": 2799,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -135,10 +201,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 190.0,
-		"last_filter": "Package Control: ins",
+		"height": 221.0,
+		"last_filter": "ins pa",
 		"selected_items":
 		[
+			[
+				"ins pa",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: ins",
 				"Package Control: Install Package"
@@ -148,7 +218,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 461.0
+		"width": 479.0
 	},
 	"console":
 	{
@@ -170,73 +240,76 @@
 	[
 		"/var/www/html/smsportal",
 		"/var/www/html/smsportal/app",
-		"/var/www/html/smsportal/app/Exceptions",
 		"/var/www/html/smsportal/app/Http",
 		"/var/www/html/smsportal/app/Http/Controllers",
 		"/var/www/html/smsportal/app/Http/Requests",
-		"/var/www/html/smsportal/app/Providers",
 		"/var/www/html/smsportal/config",
 		"/var/www/html/smsportal/public",
 		"/var/www/html/smsportal/resources",
 		"/var/www/html/smsportal/resources/assets",
 		"/var/www/html/smsportal/resources/assets/js",
+		"/var/www/html/smsportal/resources/assets/js/components",
 		"/var/www/html/smsportal/resources/views",
 		"/var/www/html/smsportal/resources/views/campaign",
 		"/var/www/html/smsportal/resources/views/campaign/partials",
 		"/var/www/html/smsportal/routes",
-		"/var/www/html/smsportal/storage",
-		"/var/www/html/smsportal/storage/app",
-		"/var/www/html/smsportal/vendor",
-		"/var/www/html/smsportal/vendor/gargron",
-		"/var/www/html/smsportal/vendor/gargron/fileupload",
-		"/var/www/html/smsportal/vendor/gargron/fileupload/src",
-		"/var/www/html/smsportal/vendor/gargron/fileupload/src/FileUpload",
-		"/var/www/html/smsportal/vendor/gargron/fileupload/src/FileUpload/PathResolver",
-		"/var/www/html/smsportal/vendor/laravel",
-		"/var/www/html/smsportal/vendor/laravel/framework",
-		"/var/www/html/smsportal/vendor/laravel/framework/src",
-		"/var/www/html/smsportal/vendor/laravel/framework/src/Illuminate",
-		"/var/www/html/smsportal/vendor/laravel/framework/src/Illuminate/Http",
-		"/var/www/html/smsportal/vendor/laravel/framework/src/Illuminate/Http/Concerns"
+		"/var/www/html/smsportal/storage"
 	],
 	"file_history":
 	[
+		"/var/www/html/smsportal/app/Http/Controllers/CampaignRequest.php",
+		"/var/www/html/smsportal/app/Http/Controllers/Campaign.php",
+		"/var/www/html/smsportal/config/app.php",
+		"/var/www/html/smsportal/app/Http/Concerns/InteractsWithUploads.php",
+		"/var/www/html/smsportal/app/Http/Controllers/HomeController.php",
+		"/var/www/html/smsportal/.env",
+		"/var/www/html/smsportal/resources/assets/js/campaign-importform.js",
+		"/var/www/html/smsportal/app/Http/Requests/WalletRequest.php",
+		"/var/www/html/smsportal/resources/assets/js/app.js",
+		"/var/www/html/smsportal/resources/assets/js/components/vueDatePicker.vue",
+		"/var/www/html/smsportal/database/migrations/2018_01_23_111800_create_campaigns_table.php",
+		"/var/www/html/smsportal/webpack.mix.js",
+		"/var/www/html/smsportal/package.json",
+		"/var/www/html/smsportal/resources/views/campaign/partials/campaign.blade.php",
+		"/var/www/html/smsportal/database/migrations/2018_01_22_085727_create_templates_table.php",
+		"/var/www/html/smsportal/app/Wallet.php",
+		"/var/www/html/smsportal/config/filesystems.php",
+		"/var/www/html/smsportal/resources/views/campaign/partials/import.blade.php",
+		"/var/www/html/smsportal/resources/views/campaign/campaign.blade.php",
+		"/var/www/html/smsportal/database/migrations/2018_01_16_191210_create_wallet_table.php",
+		"/var/www/html/smsportal/vendor/gargron/fileupload/src/FileUpload/FileUpload.php",
+		"/var/www/html/smsportal/routes/web.php",
+		"/var/www/html/smsportal/vendor/gargron/fileupload/src/FileUpload/Validator/Simple.php",
+		"/var/www/html/smsportal/vendor/gargron/fileupload/src/FileUpload/Validator/Validator.php",
+		"/var/www/html/smsportal/composer.json",
+		"/var/www/html/smsportal/app/Providers/AppServiceProvider.php",
+		"/var/www/html/smsportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithInput.php",
+		"/var/www/html/smsportal/vendor/gargron/fileupload/src/FileUpload/FileSystem/Simple.php",
+		"/var/www/html/smsportal/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php",
+		"/var/www/html/smsportal/vendor/symfony/http-foundation/File/UploadedFile.php",
+		"/var/www/html/smsportal/app/Providers/ViewServiceProvider.php",
 		"/var/www/html/smsportal/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
 		"/var/www/html/smsportal/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php",
 		"/var/www/html/smsportal/app/Providers/UploadServiceProvider.php",
-		"/var/www/html/smsportal/vendor/gargron/fileupload/src/FileUpload/FileUpload.php",
-		"/var/www/html/smsportal/config/filesystems.php",
 		"/var/www/html/smsportal/vendor/gargron/fileupload/src/FileUpload/FileNameGenerator/Simple.php",
 		"/var/www/html/smsportal/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php",
-		"/var/www/html/smsportal/composer.json",
 		"/var/www/html/smsportal/routes/api.php",
-		"/var/www/html/smsportal/.env",
-		"/var/www/html/smsportal/app/Wallet.php",
-		"/var/www/html/smsportal/app/Http/Controllers/HomeController.php",
-		"/var/www/html/smsportal/resources/assets/js/campaign-importform.js",
-		"/var/www/html/smsportal/webpack.mix.js",
 		"/var/www/html/smsportal/resources/js-imports.blade.php",
 		"/var/www/html/smsportal/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
 		"/var/www/html/smsportal/app/Http/Controllers/WalletController.php",
-		"/var/www/html/smsportal/database/migrations/2018_01_16_191210_create_wallet_table.php",
 		"/var/www/html/smsportal/database/migrations/2018_01_16_184800_create_wallet_table.php",
 		"/var/www/html/smsportal/resources/views/home.blade.php",
 		"/var/www/html/smsportal/resources/views/layouts/app.blade.php",
-		"/var/www/html/smsportal/resources/views/campaign/campaign.blade.php",
-		"/var/www/html/smsportal/resources/assets/js/app.js",
 		"/var/www/html/smsportal/resources/views/campanha/partials/import.blade.php",
 		"/var/www/html/smsportal/resources/views/campanha/campaign.blade.php",
 		"/var/www/html/smsportal/resources/views/campanha/campanha.blade.php",
 		"/var/www/html/smsportal/resources/assets/js/components/test.js",
-		"/var/www/html/smsportal/app/Providers/AppServiceProvider.php",
-		"/var/www/html/smsportal/app/Providers/ViewServiceProvider.php",
 		"/var/www/html/smsportal/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php",
-		"/var/www/html/smsportal/app/Http/Middleware/RedirectIfAuthenticated.php",
-		"/var/www/html/smsportal/routes/web.php"
+		"/var/www/html/smsportal/app/Http/Middleware/RedirectIfAuthenticated.php"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -250,6 +323,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"file",
+			"getFilename",
+			"fileNameGenerator",
+			"$fileNameGenerator",
+			"');\n",
+			"proccess",
+			"FileUploader",
 			"console.log($(this).parents('#import-form')[0].serialize();",
 			"asset",
 			"                "
@@ -260,6 +340,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"datePicker",
+			"fileWithHeadersH",
+			"fileWithHeaders",
+			"process"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -270,52 +354,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 11,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "routes/web.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1845,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								386,
-								386
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "app/Http/Controllers/WalletController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2293,
+						"buffer_size": 1927,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								105,
-								105
+								1079,
+								1079
 							]
 						],
 						"settings":
@@ -325,19 +381,108 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 508.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/assets/js/campaign-importform.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2251,
+								2251
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 628.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "app/Providers/RouteServiceProvider.php",
-					"semi_transient": true,
+					"file": "app/Wallet.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1529,
+						"buffer_size": 308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								299,
+								299
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/campaign/partials/message.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Http/Controllers/HomeController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 726,
 						"regions":
 						{
 						},
@@ -355,146 +500,84 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 408.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/Http/Requests/WalletRequest.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 702,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								107,
-								107
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "vendor/gargron/fileupload/src/FileUpload/FileUpload.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 17205,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2789,
-								2789
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "resources/views/campaign/partials/import.blade.php",
+					"file": "app/Http/Controllers/TemplateController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 572,
+						"buffer_size": 588,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								94,
-								94
+								372,
+								372
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "resources/assets/js/campaign-importform.js",
+					"file": "app/Template.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2332,
+						"buffer_size": 499,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								540,
-								540
+								130,
+								92
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"history_list_is_closing": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "app/Providers/AppServiceProvider.php",
+					"file": "app/Http/Requests/TemplateRequest.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 605,
+						"buffer_size": 532,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								455,
-								455
+								291,
+								291
 							]
 						],
 						"settings":
@@ -507,31 +590,29 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "app/Providers/ViewServiceProvider.php",
+					"file": "routes/web.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 620,
+						"buffer_size": 1969,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								109,
-								109
+								298,
+								5
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -542,19 +623,19 @@
 				},
 				{
 					"buffer": 9,
-					"file": "config/app.php",
+					"file": "app/Http/Requests/CampaignRequest.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9220,
+						"buffer_size": 488,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6713,
-								6713
+								466,
+								466
 							]
 						],
 						"settings":
@@ -564,10 +645,188 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2754.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/Http/Controllers/CampaignController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								696,
+								696
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "resources/views/auth/login.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3047,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2705,
+								2705
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 401.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "resources/views/home.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								430,
+								430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "resources/views/campaign/partials/campaign-data.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								249,
+								249
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "resources/views/campaign/campaign.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2799,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2506,
+								2506
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 628.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/Http/Requests/TemplateRequest.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
 					"type": "text"
 				}
 			]
@@ -575,7 +834,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -612,7 +871,7 @@
 	"project": "smsportal.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -621,6 +880,154 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"re/vi/log",
+				"resources/views/auth/login.blade.php"
+			],
+			[
+				"campaigreq",
+				"app/Http/Requests/CampaignRequest.php"
+			],
+			[
+				"templatere",
+				"app/Http/Requests/TemplateRequest.php"
+			],
+			[
+				"app/h/req",
+				"app/Http/Controllers/CampaignRequest.php"
+			],
+			[
+				"",
+				"routes/web.php"
+			],
+			[
+				"re/v/campaign",
+				"resources/views/campaign/partials/campaign-data.blade.php"
+			],
+			[
+				"res/vi/camp/",
+				"resources/views/campaign/partials/message.blade.php"
+			],
+			[
+				"a/ht/c/camp",
+				"app/Http/Controllers/Campaign.php"
+			],
+			[
+				"a/ht/c/",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"app/htt/hom",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"app/http/camp",
+				"app/Http/Controllers/CampaignController.php"
+			],
+			[
+				"home.b",
+				"resources/views/home.blade.php"
+			],
+			[
+				"web",
+				"routes/web.php"
+			],
+			[
+				"config.app",
+				"config/app.php"
+			],
+			[
+				"app/htt/req/",
+				"app/Http/Requests/TemplateRquest.php"
+			],
+			[
+				"templa",
+				"app/Template.php"
+			],
+			[
+				"routes/web",
+				"routes/web.php"
+			],
+			[
+				"campaign",
+				"resources/views/campaign/partials/message.blade.php"
+			],
+			[
+				"resources/jsimpo",
+				"resources/assets/js/campaign-importform.js"
+			],
+			[
+				"wall",
+				"app/Http/Controllers/WalletController.php"
+			],
+			[
+				"app/http/cont/tem",
+				"app/Http/Controllers/TemplateController.php"
+			],
+			[
+				"ap/htt/temp",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"campaign/",
+				"resources/views/campaign/partials/campaign-data.blade.php"
+			],
+			[
+				"database/migrations/",
+				"database/migrations/2018_01_23_111800_create_campaigns_table.php"
+			],
+			[
+				"app/w",
+				"app/Wallet.php"
+			],
+			[
+				"app/wa",
+				"app/Http/Requests/WalletRequest.php"
+			],
+			[
+				"app/wall",
+				"app/Http/Requests/WalletRequest.php"
+			],
+			[
+				"resource/assets/js/",
+				"resources/assets/js/app.js"
+			],
+			[
+				"webpack",
+				"webpack.mix.js"
+			],
+			[
+				"database/migrat",
+				"database/migrations/2018_01_22_085727_create_templates_table.php"
+			],
+			[
+				"config/",
+				"config/filesystems.php"
+			],
+			[
+				"databas/migration/",
+				"database/migrations/2018_01_16_191210_create_wallet_table.php"
+			],
+			[
+				"database/",
+				"database/migrations/2018_01_16_191210_create_wallet_table.php"
+			],
+			[
+				"resources/views/cama/impo",
+				"resources/views/campaign/partials/import.blade.php"
+			],
+			[
+				"vend/fileu/",
+				"vendor/gargron/fileupload/src/FileUpload/FileUpload.php"
+			],
+			[
+				"dat/migr/",
+				"database/migrations/2018_01_16_191210_create_wallet_table.php"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
 			[
 				"vendor/fileup/",
 				"vendor/gargron/fileupload/src/FileUpload/FileUpload.php"
@@ -647,14 +1054,6 @@
 			],
 			[
 				"hoco",
-				"app/Http/Controllers/HomeController.php"
-			],
-			[
-				"",
-				"resources/views/home.blade.php"
-			],
-			[
-				"a/ht/c/",
 				"app/Http/Controllers/HomeController.php"
 			],
 			[
@@ -705,7 +1104,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 306.0,
 	"status_bar_visible": true,
 	"template_settings":

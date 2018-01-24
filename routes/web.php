@@ -19,7 +19,9 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::resource("wallet", 'WalletController');
-Route::get('/campaign', 'HomeController@campanha')->name("campaign");
+Route::post('/template', 'TemplateController@store');
+Route::get('/campaign/create', 'CampaignController@create')->name('create-campaign');
+Route::post('/campaign', 'CampaignController@store');
 
 // |        | POST      | Wallet                                 | Wallet.store     | App\Http\Controllers\WalletController@store                            | web          |
 // |        | GET|HEAD  | Wallet                                 | Wallet.index     | App\Http\Controllers\WalletController@index                            | web          |

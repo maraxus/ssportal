@@ -60,7 +60,7 @@ $(function() {
               if( log ) alert(log);
           }
 
-          $('#form-group').html("<h4 class='success'>Seu arquivo está pronto</h4>");
+          $('#form-group').append("<h4 class='success'>Seu arquivo está pronto</h4>");
 
           var form = $(this).parents('#import-form').trigger('submit');
 

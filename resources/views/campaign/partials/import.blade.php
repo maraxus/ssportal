@@ -9,6 +9,7 @@
 				</label>
 			</span>
 			<input name="text" type="text" class="form-control" readonly placeholder="selecione o arquivo...">
+			<input type="text" name="file-identifier" hidden="true">
 		</div>
 	</div>
 </form>

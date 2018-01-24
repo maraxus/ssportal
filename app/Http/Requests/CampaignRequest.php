@@ -3,12 +3,9 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use FileUpload\FileNameGenerator\FileNameGenerator;
-use App\Http\Concerns\InteractsWithUploads;
 
-class WalletRequest extends FormRequest
+class CampaignRequest extends FormRequest
 {
-    use InteractsWithUploads;
     /**
      * Determine if the user is authorized to make this request.
      *
@@ -28,8 +25,8 @@ class WalletRequest extends FormRequest
     {
         return [
             //
-            'file' => 'required|mimetypes:text/plain,text/csv|mimes:txt,csv|max:5000',
+            'name' => 'required',
+            'data_envio' => ''
         ];
     }
-
 }
